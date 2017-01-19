@@ -8,13 +8,13 @@
     <title>Meta | Lock</title>
 
     <!-- Bootstrap core CSS -->
-    <link href="css/bootstrap.css" rel="stylesheet">
+    <link href="/css/bootstrap.css" rel="stylesheet">
     <!--external css-->
-    <link href="font-awesome/css/font-awesome.css" rel="stylesheet" />
+    <link href="/font-awesome/css/font-awesome.css" rel="stylesheet" />
         
     <!-- Custom styles for this template -->
-    <link href="css/style.css" rel="stylesheet">
-    <link href="css/style-responsive.css" rel="stylesheet">
+    <link href="/css/style.css" rel="stylesheet">
+    <link href="/css/style-responsive.css" rel="stylesheet">
 	
    
   </head>
@@ -25,7 +25,7 @@
 
 	  	<div class="container">
 	<!--<h1 style="margin-bottom:-200px;margin-top:100px;color:#fff;display:none;"class="text-center">I LOVE METASYS</h1>-->
-			 <p class="centered"><img style="margin-bottom:-200px;margin-top:100px;" width="150" src="dist/img/logo.png"></p>
+			 <p class="centered"><img style="margin-bottom:-200px;margin-top:100px;" width="150" src="/img/logo.png"></p>
 	  		<div id="showtime"></div>
 				
 	  			<div class="col-lg-4 col-lg-offset-4">
@@ -45,7 +45,7 @@
 				                          <h4 class="modal-title">Welcome Admin</h4>
 				                      </div>
 				                      <div class="modal-body">
-				                          <p class="centered"><img class="img-circle" width="80" src="dist/img/logo.png"></p>
+				                          <p class="centered"><img class="img-circle" width="80" src="/img/logo.png"></p>
 				                          <input type="password" name="password" placeholder="Password" autocomplete="off" class="form-control placeholder-no-fix"><br>
 									  <div class="alert alert-danger" style="display:none;">
 				                      </div>
