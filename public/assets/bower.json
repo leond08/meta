@@ -1,0 +1,21 @@
+{
+  "name": "bower",
+  "homepage": "https://github.com/leond08/meta",
+  "authors": [
+    "leond08 <fryu771@gmail.com>"
+  ],
+  "description": "metasys package",
+  "main": "",
+  "license": "MIT",
+  "dependencies": {
+    "bootstrap": "^3.3.7",
+    "Ionicons": "ionicons#^2.0.1",
+    "font-awesome": "^4.7.0",
+    "jquery-backstretch-2": "^2.1.15",
+    "jquery-slimscroll": "^1.3.8",
+    "jquery.nicescroll": "^3.6.8",
+    "jquery.gritter": "^1.7.4",
+    "datatables.net": "^2.1.1",
+    "datatables.net-bs": "^2.1.1"
+  }
+}
