@@ -11,6 +11,15 @@
 |
 */
 
-Route::get('/', function () {
-    return view('login');
-});
+Route::get('/', 'LoginController@index');
+Route::get('/login', 'LoginController@authenticate');
+Route::get('/dashboard','PagesController@home');
+Route::get('/dashboard/event','PagesController@show');
+Route::get('/dashboard/create','PagesController@create');
+Route::get('/event/{id}',[
+		'uses' => 'PagesController@view',
+		'as' => 'event'
+	]);
+
+
+
